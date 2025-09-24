@@ -74,7 +74,7 @@ const Designs = () => {
         <div className="w-full flex justify-end mt-6">
           <button
           onClick={() => setOpen(!open)}
-          className="text-2xl font-bold px-30 py-4 max-mobile:px-6 max-tablet:px-8 max-tablet:text-[20px]"
+          className="text-2xl font-bold px-30 max-tablet: py-4 max-mobile:px-10 max-tablet:px-15 max-tablet:text-[20px]"
            >
           {open ? "View Less" : "View More"}
           </button>

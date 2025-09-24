@@ -71,9 +71,16 @@ const Designs = () => {
             </div>
           ))}
         </div>
-        <button onClick={() => setOpen(!open)} className=" text-2xl font-bold px-30 py-4 max-mobile:px-10 max-tablet:px-15 max-tablet:text-[20px]">
-          {open? 'View Less' : 'View more'}
-        </button>
+        <div className="w-full flex justify-end mt-6">
+          <button
+          onClick={() => setOpen(!open)}
+          className="text-2xl font-bold px-30 py-4 max-mobile:px-6 max-tablet:px-8 max-tablet:text-[20px]"
+           >
+          {open ? "View Less" : "View More"}
+          </button>
+          </div>
+
+        
         {open && (  
           <div className=" grid grid-cols-4 mx-auto w-[85%] gap-7 bg-[#FAF8F2] p-3 rounded-2xl max-tablet:grid-cols-2">
           {dropImages.map((e,i)=>(

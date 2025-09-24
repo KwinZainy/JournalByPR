@@ -20,10 +20,10 @@ const Header = () => {
                   {open?  <X size={27} className='text-black'/> : <Menu size={25} className='text-black'/>}
                 </button>
               <div className=' flex flex-col gap-4 mx-auto  max-tablet:mt-3 max-mobile:gap-2 it'>
-                <a href="" className=' text-[20px] font-medium'>Home</a>
-                <a href="" className=' text-[20px] font-medium'>About Us</a>
-                <a href="" className=' text-[20px] font-medium'>Contact Us</a>
-                <a href="" className=' text-[20px] font-medium'>Services</a>
+                <a href="/" className=' text-[20px] font-medium'>Home</a>
+                <a href="/aboutUs" className=' text-[20px] font-medium'>About Us</a>
+                <a href="/contactUs" className=' text-[20px] font-medium'>Contact Us</a>
+                {/* <a href="/ser" className=' text-[20px] font-medium'>Services</a> */}
               </div>
               </div>
             )}

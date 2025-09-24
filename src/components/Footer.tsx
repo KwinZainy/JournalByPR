@@ -7,10 +7,11 @@ import {
   TwitterIcon,
    NotebookPen ,
   Sparkles,
+  LinkedinIcon,
 } from "lucide-react";
 const Footer = () => {
   return (
-    <div className=" px-30 bg-[#FAF8F2] mt-60 max-tablet:px-6">
+    <div className=" px-30 bg-[#FAF8F2]  max-tablet:px-6">
       <div className=" flex justify-between  py-20 items-center max-tablet:py-5">
         <main>
           <div className=" flex">
@@ -42,7 +43,7 @@ const Footer = () => {
           <p className=" text-[#484C53] italic max-tablet:text-[14px]">© 2025 Journals by PA. All rights reserved</p>
         </main>
         <main className=" flex gap-5 max-tablet:hidden ">
-          <TwitterIcon className=" text-[#484C53]" />
+          <LinkedinIcon className=" text-[#484C53]" />
           <InstagramIcon  className=" text-[#484C53]"/>
           <FacebookIcon className="text-[#484C53]" />
         </main>

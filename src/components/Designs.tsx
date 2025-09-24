@@ -66,7 +66,7 @@ const Designs = () => {
         <h1 className=" mb-10 text-[40px] text-center font-bold max-tablet:text-[30px] max-mobile:text-[25px] ">Journal Designs</h1>
         <div className=" grid grid-cols-4 mx-auto w-[85%] gap-7 bg-[#FAF8F2] p-3 rounded-2xl max-tablet:grid-cols-2">
           {images.map((e,i)=>(
-            <div>
+            <div key={i}>
               <Image src={e.image} alt="image" className=" w-[350px]"/>
             </div>
           ))}
@@ -77,7 +77,7 @@ const Designs = () => {
         {open && (  
           <div className=" grid grid-cols-4 mx-auto w-[85%] gap-7 bg-[#FAF8F2] p-3 rounded-2xl max-tablet:grid-cols-2">
           {dropImages.map((e,i)=>(
-            <div>
+            <div key={i}>
               <Image src={e.image} alt="image" className=" w-[350px]"/>
             </div>
           ))}

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react'
 import { Menu, X } from "lucide-react";
+import Link from 'next/link';
 const Header = () => {
   const [open, setOpen] = useState(false)
   return (
@@ -20,10 +21,9 @@ const Header = () => {
                   {open?  <X size={27} className='text-black'/> : <Menu size={25} className='text-black'/>}
                 </button>
               <div className=' flex flex-col gap-4 mx-auto  max-tablet:mt-3 max-mobile:gap-2 it'>
-                <a href="/" className=' text-[20px] font-medium'>Home</a>
-                <a href="/aboutUs" className=' text-[20px] font-medium'>About Us</a>
-                <a href="/contactUs" className=' text-[20px] font-medium'>Contact Us</a>
-                {/* <a href="/ser" className=' text-[20px] font-medium'>Services</a> */}
+            <Link href={'/'} className=' text-[18px] font-medium'>Home</Link>
+            <Link href={'/aboutUs'} className=' text-[18px] font-medium'>About Us</Link>
+            <Link href={'/contactUs'} className=' text-[18px] font-medium'>Contact Us</Link>
               </div>
               </div>
             )}

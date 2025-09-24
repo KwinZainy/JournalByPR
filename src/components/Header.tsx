@@ -3,6 +3,7 @@ import React from 'react'
 import Image from "next/image";
 import logo from '@/asset/img/logo.avif'
 import Menu from '../components/Menu'
+import Link from 'next/link';
 const Header = () => {
 
   return (
@@ -12,10 +13,9 @@ const Header = () => {
             <Image src={logo} alt="logo" className=" w-[130px] "/>
           </div>
           <div className=' flex gap-6 max-tablet:hidden '>
-            <a href="/" className=' text-[18px] font-medium'>Home</a>
-            <a href="/aboutUs" className=' text-[18px] font-medium'>About Us</a>
-            <a href="/contactUs" className=' text-[18px] font-medium'>Contact Us</a>
-            {/* <a href="/services" className=' text-[18px] font-medium'>Services</a> */}
+            <Link href={'/'} className=' text-[18px] font-medium'>Home</Link>
+            <Link href={'/aboutUs'} className=' text-[18px] font-medium'>About Us</Link>
+            <Link href={'/contactUs'} className=' text-[18px] font-medium'>Contact Us</Link>
           </div>
           <div className=' hidden max-tablet:block'>
             <Menu />

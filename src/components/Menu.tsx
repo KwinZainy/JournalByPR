@@ -16,7 +16,7 @@ const Header = () => {
             </button>
             <div className=' '>
             {open &&(
-              <div className='bg-[#FAF8F2] w-full flex flex-col gap-12 items-end  h-1/3 py-8 fixed top-0 right-0  z-1000 overflow-y-hidden'>
+              <div className='bg-[#FAF8F2] w-full flex flex-col gap-12 items-end  h-auto py-8 fixed top-0 right-0  z-1000 overflow-y-hidden'>
                 <button className=' pr-10 ' onClick={() => setOpen(!open)} >
                   {open?  <X size={27} className='text-black'/> : <Menu size={25} className='text-black'/>}
                 </button>

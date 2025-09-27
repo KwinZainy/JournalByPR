@@ -23,11 +23,11 @@ const ContactPage = () => {
           className="max-w-2xl mx-auto bg-white shadow-md rounded-2xl p-8 space-y-6"
         >
           
-          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_captcha" value="https://journal-by-pr-vi5t.vercel.app/"/>
           <input
             type="hidden"
             name="_next"
-            value="https://journal-by-pr-vi5t.vercel.app"
+            value="https://journal-by-pr-vi5t.vercel.app/"
           />
           <input type="hidden" name="_template" value="table" />
 

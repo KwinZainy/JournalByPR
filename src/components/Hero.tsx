@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div>
-          <div className=" relative max-tablet:top-25">
+          <div className=" relative max-tablet:top-25 ">
                  <div className=' absolute bg-black/50 inset-0 z-10'></div>
                 <div className=" ">
                   <video

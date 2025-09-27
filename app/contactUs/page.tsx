@@ -18,7 +18,7 @@ const ContactPage = () => {
         </div>
 
         <form
-          action="https://formsubmit.co/gbadamosiblessing651@gmail.com"
+          action="https://formsubmit.co/journalsbypa@gmail.com"
           method="POST"
           className="max-w-2xl mx-auto bg-white shadow-md rounded-2xl p-8 space-y-6"
         >

@@ -6,12 +6,12 @@ const AboutPage = () => {
     <PagesLayout>
     <main className=" min-h-screen py-10 px-6 lg:px-24 bg-[#FAF8F2] ">
       <div className="max-w-4xl mx-auto text-center">
-      <div className=" flex mt-40 items-end mb-5 justify-center max-tablet:mt-30 max-mobile:mt-20">
-        <h1 className=" text-5xl font-bold max-tablet:text-2xl max-mobile:text-[20px] text-[#290303]">About Journals by PA</h1>
+      <div className=" flex mt-40 items-end mb-5 justify-center max-tablet:mt-30 max-mobile:mt-40">
+        <h1 className=" text-5xl font-bold max-tablet:text-3xl max-mobile:text-[28px] text-[#290303]">About Journals by PA</h1>
         
       </div>
 
-        <div className="space-y-8 text-[30px] text-[#290303] leading-relaxed">
+        <div className="space-y-8 text-[30px] max-mobile:text-[20px] text-[#290303] leading-relaxed">
           <p>
             Journals by PA exists to help purpose driven people bring their
             journal ideas to life beautifully and intentionally. Each journal

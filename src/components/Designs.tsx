@@ -62,7 +62,7 @@ const Designs = () => {
   ]
   return (
     <div>
-          <div className=" pt-20 max-tablet:mt-35 bg-[#FAF8F2] ">
+          <div className=" pt-20 max-tablet:pt-35 bg-[#FAF8F2] ">
         <h1 className=" mb-10 text-[40px] text-center font-bold max-tablet:text-[30px] max-mobile:text-[25px] text-[#290303]"> Designs</h1>
         <div className=" grid grid-cols-4 mx-auto w-[85%] gap-7 bg-[#FAF8F2] p-3 rounded-2xl max-tablet:grid-cols-2">
           {images.map((e,i)=>(

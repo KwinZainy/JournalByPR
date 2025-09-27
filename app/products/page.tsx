@@ -11,7 +11,7 @@ export default function ProductsPage() {
           Our Products
         </h1>
         <p className="text-[40px] max-mobile:text-[30px] text-[#290303] mt-10 max-tablet:mt-4">
-           Coming Soon Stay tuned for amazing products we’re crafting just for you!
+           Coming Soon.... Stay tuned for amazing products we’re crafting just for you!
         </p>
       </div>
     </section>

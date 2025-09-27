@@ -2,7 +2,7 @@
 
 import PagesLayout from "@/src/components/PagesLayout";
 
-const ThankYou = () => {
+const ThankYouPage = () => {
   return (
     <PagesLayout>
       <main className="bg-[#FAF8F2] min-h-screen flex items-center justify-center">
@@ -17,4 +17,4 @@ const ThankYou = () => {
   );
 };
 
-export default ThankYou;
+export default ThankYouPage;

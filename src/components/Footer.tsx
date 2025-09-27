@@ -8,44 +8,30 @@ import {
    NotebookPen ,
   Sparkles,
   LinkedinIcon,
+  Phone,
 } from "lucide-react";
 const Footer = () => {
   return (
-    <div className=" px-30 bg-[#FAF8F2]  max-tablet:px-6">
-      <div className=" flex justify-between  py-20 items-center max-tablet:py-5">
-        <main>
-          <div className=" flex">
-            <h1 className=" italic font-medium mb-4 max-tablet:mb-2">Journals by PA .</h1>
-            < NotebookPen  className="w-6 h-6 text-black" />
-          </div>
-          <p className=" text-[17px] text-[#484C53] max-tablet:text-[12px]">“Write what should not be forgotten.” – Isabel Allende</p>
-
-          <p className="text-sm flex items-center gap-1 text-[#484C53] max-tablet:text-[12px]">
-            Stay consistent with your journaling journey
-            <Sparkles className="w-4 h-4 text-[#484C53] inline" />
-          </p>
-        </main>
-        <main>
-          <Image src={logo} alt="logo" className=" w-[100px] max-tablet:hidden" />
-        </main>
-      </div>
-      <div className=" hidden max-tablet:block pb-3">
-        <h1 className=" text-[#484C53] mb-2">Follow us</h1>
+    <div className="  bg-[#FAF8F2]  max-tablet:px-6">
+      
+      <div className=" hidden max-tablet:block pb-3 ">
+        <h1 className=" text-[#290303] mb-2">Follow us</h1>
           <main className=" flex flex-col gap-2 ">
-          <TwitterIcon className=" text-[#484C53]" />
-          <InstagramIcon  className=" text-[#484C53]"/>
-          <FacebookIcon className="text-[#484C53]" />
+          <a href="https://www.linkedin.com/company/journals-by%C2%A0pa" target="_blank" rel="noopener noreferrer"><LinkedinIcon className=" text-[#290303]" /></a>
+          <a href="https://www.instagram.com/journalsbypa" target="_blank" rel="noopener noreferrer"><InstagramIcon  className=" text-[#290303]"/> </a>
+          <a href="tel:‪+2349130666766‬" target="_blank" rel="noopener noreferrer"> <Phone className=" text-[#290303]"/></a>
         </main>
       </div>
-      <hr className=" text-[#484C53] h-2" />
-      <div className=" flex justify-between py-14 max-tablet:justify-center max-tablet:py-5">
+      <hr className=" text-[#290303] h-2" />
+      <div className=" flex justify-end gap-93 py-14 max-tablet:justify-center px-30 max-tablet:py-5">
         <main>
-          <p className=" text-[#484C53] italic max-tablet:text-[14px]">© 2025 Journals by PA. All rights reserved</p>
+          <p className=" text-[#290303] italic max-tablet:text-[14px]">© 2025 Journals by PA Concepts. All rights reserved</p>
         </main>
         <main className=" flex gap-5 max-tablet:hidden ">
-          <LinkedinIcon className=" text-[#484C53]" />
-          <InstagramIcon  className=" text-[#484C53]"/>
-          <FacebookIcon className="text-[#484C53]" />
+          <a href="https://www.linkedin.com/company/journals-by%C2%A0pa" target="_blank" rel="noopener noreferrer"><LinkedinIcon className=" text-[#290303]" /></a>
+          <a href="https://www.instagram.com/journalsbypa" target="_blank" rel="noopener noreferrer"><InstagramIcon  className=" text-[#290303]"/> </a>
+          <a href="tel:‪+2349130666766‬" target="_blank" rel="noopener noreferrer"> <Phone className=" text-[#290303]"/></a>
+         
         </main>
       </div>
     </div>

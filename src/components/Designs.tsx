@@ -62,8 +62,8 @@ const Designs = () => {
   ]
   return (
     <div>
-          <div className=" mt-20 max-tablet:mt-35">
-        <h1 className=" mb-10 text-[40px] text-center font-bold max-tablet:text-[30px] max-mobile:text-[25px] ">Journal Designs</h1>
+          <div className=" pt-20 max-tablet:mt-35 bg-[#FAF8F2] ">
+        <h1 className=" mb-10 text-[40px] text-center font-bold max-tablet:text-[30px] max-mobile:text-[25px] text-[#290303]"> Designs</h1>
         <div className=" grid grid-cols-4 mx-auto w-[85%] gap-7 bg-[#FAF8F2] p-3 rounded-2xl max-tablet:grid-cols-2">
           {images.map((e,i)=>(
             <div key={i}>
@@ -74,7 +74,7 @@ const Designs = () => {
         <div className="w-full flex justify-end mt-6">
           <button
           onClick={() => setOpen(!open)}
-          className="text-2xl font-bold px-30 max-tablet: py-4 max-mobile:px-10 max-tablet:px-15 max-tablet:text-[20px]"
+          className="text-2xl font-bold px-30 max-tablet: py-4 max-mobile:px-10 max-tablet:px-15 max-tablet:text-[20px] text-[#290303] "
            >
           {open ? "View Less" : "View More"}
           </button>

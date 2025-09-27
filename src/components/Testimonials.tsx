@@ -1,4 +1,5 @@
 import React from "react";
+import Stars from "./Stars";
 
 const testimonials = [
   "“Working with Journals by PA was seamless. I shared my idea, and it came to life more beautifully than I imagined. The design was intentional, clean, and truly aligned with my vision.” – Happy Client",
@@ -11,14 +12,17 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className=" py-26 px-6 lg:px-20">
-      <h2 className="text-3xl lg:text-5xl font-bold text-center mb-12">
+    <section className=" py-26 px-6 lg:px-20 bg-[#FAF8F2] ">
+      <div className=" flex flex-col items-center">
+      <h2 className="text-3xl lg:text-5xl font-bold text-center mb-7 text-[#290303]">
         Testimonials
       </h2>
-
+      <p><Stars/></p>
+      
+      </div>
       <div className="flex flex-col gap-10 max-w-3xl mx-auto">
         {testimonials.map((t, i) => (
-          <p key={i} className="text-lg text-gray-700 italic text-center">
+          <p key={i} className="text-[23px] font-medium text-[#290303] italic text-center">
             {t}
           </p>
         ))}

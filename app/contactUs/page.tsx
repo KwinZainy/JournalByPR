@@ -27,7 +27,7 @@ const ContactPage = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://journal-by-pr-vi5t.vercel.app/thankYou"
+            value="https://journal-by-pr-vi5t.vercel.app/thank-you"
           />
           <input type="hidden" name="_template" value="table" />
 

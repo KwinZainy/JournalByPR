@@ -23,9 +23,9 @@ const Footer = () => {
         </main>
       </div>
       <hr className=" text-[#290303] h-2" />
-      <div className=" flex justify-end gap-93 py-14 max-tablet:justify-center px-30 max-tablet:py-5">
+      <div className=" flex justify-end gap-93 py-14 max-tablet:justify-center px-30 max-mobile:px-3 max-tablet:py-5">
         <main>
-          <p className=" text-[#290303] italic max-tablet:text-[14px]">© 2025 Journals by PA Concepts. All rights reserved</p>
+          <p className=" text-[#290303] italic max-tablet:text-[14px] max-mobile-text-[12px]">© 2025 Journals by PA Concepts. All rights reserved</p>
         </main>
         <main className=" flex gap-5 max-tablet:hidden ">
           <a href="https://www.linkedin.com/company/journals-by%C2%A0pa" target="_blank" rel="noopener noreferrer"><LinkedinIcon className=" text-[#290303]" /></a>

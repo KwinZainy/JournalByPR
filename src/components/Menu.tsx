@@ -23,9 +23,10 @@ const Header = () => {
               <div className=' flex flex-col gap-8 mx-auto py-3 w-full px-5 max-tablet:mt-2 max-mobile:gap-8 it pb-10 text-[#290303]'>
             <Link href={'/'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>Home</Link>
             <Link href={'/aboutUs'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>About Us</Link>
-            <Link href={'/contactUs'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>Contact Us</Link>
             <Link href={'/services'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>Services</Link>
             <Link href={'/products'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>Products</Link>
+            <Link href={'/contactUs'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>Contact Us</Link>
+
             
               </div>
               </div>

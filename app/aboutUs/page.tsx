@@ -22,7 +22,7 @@ const AboutPage = () => {
           <p>
             From guided reflections to themed workbooks, devotionals, and
             planners, our focus is on creating digital journals that not only
-            look good but feel right — thoughtful, clean, and aligned with the
+            look good but feel right, thoughtful, clean, and aligned with the
             message inside.
           </p>
 

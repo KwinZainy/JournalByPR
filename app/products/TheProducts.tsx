@@ -17,7 +17,7 @@ const TheProducts = () => {
         </div>
         <div className=' w-[60%] flex flex-col text-start gap-4 text-[18px] max-tablet:w-[90%] max-mobile:text-[14px]'>
             <h1 className=' text-2xl font-bold max-mobile:text-[17px]'>While I Wait: A Journal for Trusting God's Timing</h1>
-            <p className=' '>Waiting can be one of the hardest seasons of life, but it’s also one of the most transformative. While I Wait is a 30-day devotional journal designed to help you trust God’s timing, stay hopeful, and find peace in the waiting.</p>
+            <p>Waiting can be one of the hardest seasons of life, but it’s also one of the most transformative. While I Wait is a 30-day devotional journal designed to help you trust God’s timing, stay hopeful, and find peace in the waiting.</p>
             <p>Each day includes scriptures, words, songs, affirmations, reflection journaling prompts, and prayers to help you strengthen your faith, grow in patience, and rediscover joy while you wait.</p>
             <p>Whether you’re waiting for a job, a relationship, direction, healing, or a breakthrough, this journal offers a space to pause, reflect, and realign your heart with God’s will and promises. You may not control the waiting, but you can choose how you wait.</p>
             <p className=' text-[15px]'>Click to start your 30-day journey today 👉🏻 <a href="https://selar.com/while_i_wait_journal" target='_blank' rel='noopener noreferrer' className='text-blue-500' >https://selar.com/while_i_wait_journal</a></p>
@@ -90,7 +90,7 @@ const TheProducts = () => {
        {/* product5 */}
          <div className=' flex  gap-12 mx-auto w-[90%] my-10 items-center shadow-2xl rounded-2xl bg-white px-6 py-10 mt-40 max-tablet:flex-col max-mobile:px-3 max-mobile:w-[100%]'>
         <div className=' w-[40%] max-tablet:w-[90%] '>
-            <Image src={chapters} alt='wait' />
+            <Image src={chaptersN} alt='wait' />
         </div>
         <div className=' w-[60%] flex flex-col text-start gap-4 text-[18px] max-tablet:w-[90%] max-mobile:text-[14px]'>
             <h1 className=' text-2xl font-bold max-mobile:text-[17px]'>Three Chapters a Day: A New Testament Planner for Consistent Bible Reading</h1>

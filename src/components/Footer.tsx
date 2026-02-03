@@ -1,12 +1,6 @@
 import React from "react";
-import logo from "@/asset/img/logo.avif";
-import Image from "next/image";
 import {
-  FacebookIcon,
   InstagramIcon,
-  TwitterIcon,
-   NotebookPen ,
-  Sparkles,
   LinkedinIcon,
   Phone,
 } from "lucide-react";

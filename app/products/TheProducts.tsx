@@ -42,8 +42,7 @@ const TheProducts = () => {
             <p className='text-[15px]'>Click to make your waiting season meaningful 👉🏻<a href="https://selar.com/waiting_well_workbook" target='_blank' rel='noopener noreferrer' className='text-blue-500' >https://selar.com/waiting_well_workbook</a></p>
         </div>
        </div>
-        {/* product3 */}
-          <div className=' flex  gap-12 mx-auto w-[90%] my-10 items-center shadow-2xl rounded-2xl bg-white px-6 py-10 mt-40 max-tablet:flex-col max-mobile:w-[100%] max-mobile:px-3'>
+                 <div className=' flex  gap-12 mx-auto w-[90%] my-10 items-center shadow-2xl rounded-2xl bg-white px-6 py-10 mt-40 max-tablet:flex-col max-mobile:w-[100%] max-mobile:px-3'>
         <div className=' w-[40%] max-tablet:w-[90%] '>
             <Image src={enduring} alt='wait' />
         </div>
@@ -65,7 +64,6 @@ const TheProducts = () => {
             <p className='text-[15px]'>Click to endure your trials with God 👉🏻<a href="https://selar.com/enduring_trials_workbook" target='_blank' rel='noopener noreferrer' className='text-blue-500' >https://selar.com/enduring_trials_workbook</a></p>
         </div>
        </div>
-       {/* product4 */}
 
           <div className=' flex  gap-12 mx-auto w-[90%] my-10 items-center shadow-2xl rounded-2xl bg-white px-6 py-10 mt-40  max-tablet:flex-col max-mobile:px-3 max-mobile:w-[100%]'>
         <div className=' w-[40%] max-tablet:w-[90%] '>
@@ -86,7 +84,6 @@ const TheProducts = () => {
             <p className='text-[14px]'>Click to build your Old Testament reading habit 👉🏻<a href="https://selar.com/three_chapters_a_day_oldtesta_planner" target='_blank' rel='noopener noreferrer' className='text-blue-500 text-[12px]' >https://selar.com/three_chapters_a_day_oldtesta_planner</a></p>
         </div>
        </div>
-       {/* product5 */}
          <div className=' flex  gap-12 mx-auto w-[90%] my-10 items-center shadow-2xl rounded-2xl bg-white px-6 py-10 mt-40 max-tablet:flex-col max-mobile:px-3 max-mobile:w-[100%]'>
         <div className=' w-[40%] max-tablet:w-[90%] '>
             <Image src={chaptersN} alt='wait' />

@@ -12,6 +12,7 @@ export default function ProductsPage() {
         <h1 className="text-4xl md:text-5xl font-bold text-[#290303] mb-4 max-mobile:mb-2">
           Our Products
         </h1>
+        
         <TheProducts/>
       </div>
     </section>

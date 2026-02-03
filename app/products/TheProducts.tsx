@@ -10,7 +10,6 @@ import enduring from './img/enduring.jpeg'
 const TheProducts = () => {
   return (
     <div>
-       {/* product1  */}
        <div className=' flex  gap-12 mx-auto w-[90%] my-10 items-center shadow-2xl rounded-2xl bg-white px-6 py-10 max-tablet:flex-col max-mobile:px-3 max-mobile:w-[100%] max-mobile:my-7'>
         <div className=' w-[40%] max-tablet:w-[90%] '>
             <Image src={whileIWait} alt='wait' />

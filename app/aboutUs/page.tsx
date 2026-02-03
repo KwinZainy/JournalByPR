@@ -13,23 +13,16 @@ const AboutPage = () => {
 
         <div className="space-y-8 text-[30px] max-mobile:text-[20px] text-[#290303] leading-relaxed">
           <p>
-            Journals by PA exists to help purpose driven people bring their
-            journal ideas to life beautifully and intentionally. Each journal
-            is custom designed to reflect the heart of the creator and the
-            purpose behind the pages.
+            At journals by PA, we help purpose-driven people bring their journal ideas to life beautifully and intentionally, all in digital format, so you journal anywhere without carrying a physical notebook.
           </p>
 
           <p>
             From guided reflections to themed workbooks, devotionals, and
-            planners, our focus is on creating digital journals that not only
-            look good but feel right, thoughtful, clean, and aligned with the
-            message inside.
+            planners, each digital journal is custom designed to reflect the heart of the creator and the purpose behind every page. Our journals are thoughtful, elegant, and meaningful, giving you a seamless journaling experience wherever you are.
           </p>
 
           <p>
-            What started as a simple project has grown into a service trusted by
-            clients who want more than templates. They want journals that carry
-            meaning, elegance, and clarity.
+            Trusted by clients who want more than templates, we create journals that inspire, motivate, and carry clarity and purpose. Every design is tailored, every page is intentional, your ideas, your story, beautifully brought to life.
           </p>
 
           <p className="font-medium italic text-[#290303]">

@@ -59,7 +59,7 @@ const ContactPage = () => {
 
           <div>
             <label htmlFor="phone" className="block text-left font-medium mb-2">
-              Phone Number
+              Phone Number (include country code  )
             </label>
             <input
               type="tel"
@@ -90,7 +90,7 @@ const ContactPage = () => {
             type="submit"
             className="w-full bg-[#290303] text-white font-semibold py-3 rounded-lg shadow hover:bg-[#FAF8F2] hover:text-[#290303] transition"
           >
-            Send Message
+            Send Us an Inquiry
           </button>
         </form>
       </main>

@@ -57,7 +57,7 @@ export default function ServicesPage() {
             rel="noopener noreferrer"
             className="inline-block bg-[#290303] text-white px-8 py-4 rounded-xl shadow-md hover:bg-[#FAF8F2] hover:text-[#290303] transition"
           >
-            Start Your Personalized Journal Journey
+            Click to Get Started
           </Link>
         </div>
       </div>

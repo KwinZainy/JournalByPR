@@ -1,23 +1,39 @@
 "use client";
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Menu, X } from "lucide-react";
 import Link from 'next/link';
 const Header = () => {
   const [open, setOpen] = useState(false)
+  const [visible, setVisible] = useState(false);
+
+useEffect(() => {
+  if (open) setVisible(true);
+  else {
+    const timer = setTimeout(() => setVisible(false), 300); // match slide-up duration
+    return () => clearTimeout(timer);
+  }
+}, [open]);
+
   return (
     <div>
        
           <div className=' lg:hidden'>
             <button
             onClick={()=> setOpen(!open)}
-            className=''
+            className=' '
             >       
               {open?  <X size={25} className='text-black'/> : <Menu size={25} className='text-black'/>}
             </button>
             <div className=' '>
-            {open &&(
-              <div className='bg-[#FAF8F2] w-full flex flex-col gap-12 items-end  h-auto py-8 fixed top-0 right-0  z-1000 overflow-y-hidden'>
-                <button className=' pr-10 ' onClick={() => setOpen(!open)} >
+            {visible &&(
+              <div
+  className={`
+    bg-[#FAF8F2] w-full flex flex-col gap-12 items-end
+    h-auto py-8 fixed top-0 right-0 z-[1000] overflow-hidden
+    ${open ? "dropdown-animation" : "dropdown-slide-up"}
+  `}
+>
+                <button className=' max-tablet:pr-19.5 max-tablet:mt-2 max-mobile:mt-3 max-mobile:pr-12.5 ' onClick={() => setOpen(!open)} >
                   {open?  <X size={27} className='text-black'/> : <Menu size={25} className='text-black'/>}
                 </button>
             <div className=' flex flex-col gap-8 mx-auto py-3 w-full px-5 max-tablet:mt-2 max-mobile:gap-8 it pb-10 text-[#290303]'>

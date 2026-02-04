@@ -21,3 +21,36 @@ html, body {
   animation: slideUp 1.8s ease-out forwards;
 }
 
+
+/* Slide down + fade animation for dropdown */
+@keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide up + fade out */
+@keyframes slideUpFade {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+}
+
+/* Class to call in Tailwind JSX */
+.dropdown-animation {
+  animation: slideDownFade 0.4s ease-out forwards;
+}
+.dropdown-slide-up {
+  animation: slideUpFade 0.3s ease-in forwards;
+}
+

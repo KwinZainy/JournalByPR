@@ -19,7 +19,7 @@ const TheProducts = () => {
             <p>{"Waiting can be one of the hardest seasons of life, but it’s also one of the most transformative. While I Wait is a 30-day devotional journal designed to help you trust God’s timing, stay hopeful, and find peace in the waiting."}</p>
             <p>Each day includes scriptures, words, songs, affirmations, reflection journaling prompts, and prayers to help you strengthen your faith, grow in patience, and rediscover joy while you wait.</p>
             <p>{"Whether you’re waiting for a job, a relationship, direction, healing, or a breakthrough, this journal offers a space to pause, reflect, and realign your heart with God’s will and promises. You may not control the waiting, but you can choose how you wait."}</p>
-            <p className=' text-[15px]'>Click to start your 30-day journey today 👉🏻 <a href="https://selar.com/while_i_wait_journal" target='_blank' rel='noopener noreferrer' className='text-blue-500' >https://selar.com/while_i_wait_journal</a></p>
+             <button className='text-white bg-[#290303]   w-fit p-3 rounded-lg'><a href="https://selar.com/while_i_wait_journal" target='_blank' rel='noopener noreferrer' className=' text-[12px]' >Click to start your 30-day journey today </a></button>
         </div>
        </div>
 
@@ -39,7 +39,8 @@ const TheProducts = () => {
                 <li>{"Celebrate God’s faithfulness even before the promise arrives"}</li>
             </ul>
             <p>{"Whether you’re waiting for clarity, marriage, a job, healing, provision, or a breakthrough, this workbook gives you a safe space to pause, reflect, and realign your heart with God’s will. You may not control when the promise comes, but you can choose how you wait."}</p>
-            <p className='text-[15px]'>Click to make your waiting season meaningful 👉🏻<a href="https://selar.com/waiting_well_workbook" target='_blank' rel='noopener noreferrer' className='text-blue-500' >https://selar.com/waiting_well_workbook</a></p>
+           
+            <button className='text-white bg-[#290303]   w-fit p-3 rounded-lg'><a href="https://selar.com/waiting_well_workbook" target='_blank' rel='noopener noreferrer' className=' text-[12px]' >Click to make your waiting season meaningful </a></button>
         </div>
        </div>
                  <div className=' flex  gap-12 mx-auto w-[90%] my-10 items-center shadow-2xl rounded-2xl bg-white px-6 py-10 mt-40 max-tablet:flex-col max-mobile:w-[100%] max-mobile:px-3'>
@@ -61,7 +62,7 @@ const TheProducts = () => {
                 <li>Prepare your heart for restoration</li>
             </ul>
             <p>You are not alone in your trial. God is present, He is working, and your story is not over.</p>
-            <p className='text-[15px]'>Click to endure your trials with God 👉🏻<a href="https://selar.com/enduring_trials_workbook" target='_blank' rel='noopener noreferrer' className='text-blue-500' >https://selar.com/enduring_trials_workbook</a></p>
+              <button className='text-white bg-[#290303]   w-fit p-3 rounded-lg'><a href="https://selar.com/enduring_trials_workbook" target='_blank' rel='noopener noreferrer' className=' text-[12px]' >Click to endure your trials with God </a></button>
         </div>
        </div>
 
@@ -81,7 +82,7 @@ const TheProducts = () => {
                 <li>Track your spiritual growth over time</li>
             </ul>
             <p>{"This planner helps you engage with God’s Word in a clear and manageable way, three chapters at a time, so you can grow in faith with confidence and peace."}</p>
-            <p className='text-[14px]'>Click to build your Old Testament reading habit 👉🏻<a href="https://selar.com/three_chapters_a_day_oldtesta_planner" target='_blank' rel='noopener noreferrer' className='text-blue-500 text-[12px]' >https://selar.com/three_chapters_a_day_oldtesta_planner</a></p>
+            <button className='text-white bg-[#290303]   w-fit p-3 rounded-lg'><a href="https://selar.com/three_chapters_a_day_oldtesta_planner" target='_blank' rel='noopener noreferrer' className=' text-[12px]' >Click to build your Old Testament reading habit </a></button>
         </div>
        </div>
          <div className=' flex  gap-12 mx-auto w-[90%] my-10 items-center shadow-2xl rounded-2xl bg-white px-6 py-10 mt-40 max-tablet:flex-col max-mobile:px-3 max-mobile:w-[100%]'>
@@ -100,7 +101,7 @@ const TheProducts = () => {
                 <li>Track your spiritual growth over time</li>
             </ul>
             <p>This planner helps you engage deeply with the life, teachings, and promises found in the New Testament, three chapters at a time, so you can grow in faith with confidence and peace.</p>
-            <p className='text-[13px]'>Click to build your New Testament reading habit 👉🏻<a href="https://selar.com/three_chapters_a_day_newtesta_planner" target='_blank' rel='noopener noreferrer' className='text-blue-500 text-[12px]' >https://selar.com/three_chapters_a_day_newtesta_planner</a></p>
+            <button className='text-white bg-[#290303]   w-fit p-3 rounded-lg'><a href="https://selar.com/three_chapters_a_day_newtesta_planner" target='_blank' rel='noopener noreferrer' className=' text-[12px]' >Click to build your New Testament reading habit</a></button>
         </div>
        </div>
     </div>

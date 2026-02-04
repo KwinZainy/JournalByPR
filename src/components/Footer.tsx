@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <div className="  bg-[#FAF8F2]  max-tablet:px-6">
       
-      <div className=" hidden max-tablet:block pb-3 ">
+      <div className=" hidden max-tablet:block pb-3 max-tablet:flex max-tablet:gap-3">
         <h1 className=" text-[#290303] mb-2">Follow us</h1>
-          <main className=" flex flex-col gap-2 ">
+          <main className=" flex gap-2  ">
           <a href="https://www.linkedin.com/company/journals-by%C2%A0pa" target="_blank" rel="noopener noreferrer"><LinkedinIcon className=" text-[#290303]" /></a>
           <a href="https://www.instagram.com/journalsbypa" target="_blank" rel="noopener noreferrer"><InstagramIcon  className=" text-[#290303]"/> </a>
           <a href="tel:‪+2349130666766‬" target="_blank" rel="noopener noreferrer"> <Phone className=" text-[#290303]"/></a>

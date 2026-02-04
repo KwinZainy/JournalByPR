@@ -33,7 +33,7 @@ useEffect(() => {
     ${open ? "dropdown-animation" : "dropdown-slide-up"}
   `}
 >
-                <button className=' max-tablet:pr-19.5 max-tablet:mt-2 max-mobile:mt-3 max-mobile:pr-12.5 ' onClick={() => setOpen(!open)} >
+                <button className=' max-tablet:pr-19.5 max-tablet:mt-2 max-mobile:mt-2.5 max-mobile:pr-12 ' onClick={() => setOpen(!open)} >
                   {open?  <X size={27} className='text-black'/> : <Menu size={25} className='text-black'/>}
                 </button>
             <div className=' flex flex-col gap-8 mx-auto py-3 w-full px-5 max-tablet:mt-2 max-mobile:gap-8 it pb-10 text-[#290303]'>

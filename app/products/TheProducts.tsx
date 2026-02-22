@@ -5,6 +5,7 @@ import chaptersN from './img/chaptersN.jpeg'
 import waitingWell from './img/waitingwell.jpeg'
 import whileIWait from './img/whileiwait.jpeg'
 import enduring from './img/enduring.jpeg'
+import sImg from './img/simg.jpeg'
 
 
 const TheProducts = () => {
@@ -102,6 +103,29 @@ const TheProducts = () => {
             </ul>
             <p>This planner helps you engage deeply with the life, teachings, and promises found in the New Testament, three chapters at a time, so you can grow in faith with confidence and peace.</p>
             <button className='text-white bg-[#290303]   w-fit p-3 rounded-lg'><a href="https://selar.com/three_chapters_a_day_newtesta_planner" target='_blank' rel='noopener noreferrer' className=' text-[12px]' >Click to build your New Testament reading habit</a></button>
+        </div>
+       </div>
+
+        <div className=' flex  gap-12 mx-auto w-[90%] my-10 items-center shadow-2xl rounded-2xl bg-white px-6 py-10 mt-40 max-tablet:flex-col max-mobile:px-3 max-mobile:w-[100%]'>
+        <div className=' w-[40%] max-tablet:w-[90%] '>
+            <Image src={sImg} alt='wait' />
+        </div>
+        <div className=' w-[60%] flex flex-col text-start gap-4 text-[18px] max-tablet:w-[90%] max-mobile:text-[14px]'>
+            <h1 className=' text-2xl font-bold max-mobile:text-[17px]'>Before Your Breakthrough 50 Worship Songs & 50 Scriptures to Strengthen Your Faith While You Wait </h1>
+            <p>{"Waiting can drain your faith, shake your confidence, and leave you feeling spiritually tired. In seasons where answers feel delayed and clarity seems far away, it’s easy to lose focus and slip into worry."}</p>
+            <p>Before Your Breakthrough is a faith-centered digital resource designed to help you stay spiritually grounded, emotionally steady, and hope-filled while you wait on God.</p>
+            <p>{"Instead of feeling overwhelmed or discouraged, this resource helps you know exactly what to turn to when waiting feels heavy. Inside, you’ll receive a carefully curated collection of 50 worship songs and 50 Scriptures chosen to help you:"}</p>
+            <ul>
+                <li>Strengthen your faith when prayers feel unanswered</li>
+                <li>Find peace in moments of anxiety and uncertainty</li>
+                <li>Stay connected to God even when the wait feels long</li>
+                <li>Shift your focus from fear to trust</li>
+                <li>Build consistency in worship and Scripture during difficult seasons</li>
+
+            </ul>
+            <p>This resource removes the stress of wondering what to read or what to listen to. Everything is already selected for you, so you can simply open it, worship, reflect, and breathe.</p>
+            <p>Whether you are waiting for direction, healing, provision, restoration, or breakthrough, Before Your Breakthrough helps you remain spiritually anchored, reminding you that God is working, even when you cannot yet see it.</p>
+            <button className='text-white bg-[#290303]   w-fit p-3 rounded-lg'><a href="https://selar.com/before_your_breakthough" target='_blank' rel='noopener noreferrer' className=' text-[12px]' >Click to strengthen your faith while you wait</a></button>
         </div>
        </div>
     </div>

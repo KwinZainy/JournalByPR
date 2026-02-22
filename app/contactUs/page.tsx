@@ -13,7 +13,7 @@ const ContactPage = () => {
           </h1>
           <p className="text-[#290303] mb-10">
             Do you have any inquiries? Kindly fill out the form below, and we’ll
-            be in touch.
+            get back to you within 24 hours.
           </p>
         </div>
 

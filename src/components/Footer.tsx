@@ -44,7 +44,7 @@ const Footer = () => {
             © 2026 Journals by PA Concepts. All rights reserved
           </p>
 
-          <p className="text-[#290303] italic max-tablet:text-[14px] max-mobile:text-[12px]">
+          <p className="text-[#290303] italic max-tablet:text-[14px] max-mobile:text-[12px] text-start">
             Designed by{" "}
             <a
               href="https://www.isabitech.ng/"

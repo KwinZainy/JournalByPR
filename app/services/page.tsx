@@ -25,43 +25,43 @@ export default function ServicesPage() {
 
   return (
     <PagesLayout>
-    <section className="min-h-screen bg-[#FAF8F2] py-16 px-6 md:px-12 lg:px-20">
-      <div className="max-w-5xl mx-auto text-center mt-27">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#290303] mb-6">
-          Our Services
-        </h1>
-        <p className="text-lg text-[#290303] mb-12">
-          Want to create your digital journal? Choose a service that fits your journey.
-        </p>
+      <section className="min-h-screen bg-[#FAF8F2] py-16 px-6 md:px-12 lg:px-20">
+        <div className="max-w-5xl mx-auto text-center mt-27">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#290303] mb-6">
+            Our Services
+          </h1>
+          <p className="text-lg text-[#290303] mb-12">
+            Want to create your journal? Choose a service that fits your journey.
+          </p>
 
-       
-        <div className="grid md:grid-cols-2 gap-8">
-          {services.map((service, i) => (
-            <div
-              key={i}
-              className="rounded-2xl shadow-md bg-white p-6 text-left hover:shadow-lg transition"
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {services.map((service, i) => (
+              <div
+                key={i}
+                className="rounded-2xl shadow-md bg-white p-6 text-left hover:shadow-lg transition"
+              >
+                <h2 className="text-2xl font-semibold text-[#290303] mb-3">
+                  {service.title}
+                </h2>
+                <p className="text-[#290303]">{service.description}</p>
+              </div>
+            ))}
+          </div>
+
+
+          <div className="mt-16">
+            <Link
+              href="https://wa.me/2349130666766?text=Hi%20Journals%20by%20PA,%20I’m%20interested%20in%20creating%20a%20digital/physical%20journal.%20I%20would%20love%20to%20know%20how%20it%20works."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#290303] text-white px-8 py-4 rounded-xl shadow-md hover:bg-[#FAF8F2] hover:text-[#290303] transition"
             >
-              <h2 className="text-2xl font-semibold text-[#290303] mb-3">
-                {service.title}
-              </h2>
-              <p className="text-[#290303]">{service.description}</p>
-            </div>
-          ))}
+              Click to Get Started
+            </Link>
+          </div>
         </div>
-
-        
-        <div className="mt-16">
-          <Link
-            href="https://wa.me/c/2349130666766"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#290303] text-white px-8 py-4 rounded-xl shadow-md hover:bg-[#FAF8F2] hover:text-[#290303] transition"
-          >
-            Click to Get Started
-          </Link>
-        </div>
-      </div>
-    </section>
+      </section>
     </PagesLayout>
   );
 }

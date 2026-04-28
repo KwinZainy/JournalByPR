@@ -19,7 +19,7 @@ const Mission: React.FC = () => {
             <span className="block text-3xl lg:text-4xl mb-3 font-serif text-[#8b5e3c]">
               “
             </span>
-       To help purpose-driven people turn their ideas into beautifully designed digital journals that inspire reflection, clarity, and impact.
+            To help purpose-driven people (Creators, Coaches & Brands) turn their knowledge into beautifully designed, sellable journals that elevate their brand and inspire reflection, clarity, and impact.
             <span className="block text-3xl lg:text-4xl mt-3 font-serif text-[#8b5e3c]">
               ”
             </span>
@@ -29,7 +29,7 @@ const Mission: React.FC = () => {
             <div className="h-1 w-28 mx-auto rounded-full bg-gradient-to-r from-[#CC302B] to-[#F59E0B] opacity-90" />
           </div>
 
-         
+
         </div>
       </div>
     </section>

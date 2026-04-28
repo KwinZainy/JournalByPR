@@ -13,7 +13,7 @@ const Testimonials = () => {
         <h2 className="text-3xl lg:text-5xl font-bold text-center mb-7 text-[#290303]">
           Testimonials
         </h2>
-        <p><Stars /></p>
+        <div><Stars /></div>
 
       </div>
       <div className="flex flex-col gap-10 max-w-3xl mx-auto">

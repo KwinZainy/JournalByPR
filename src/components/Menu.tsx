@@ -2,8 +2,11 @@
 import React, { useState, useEffect } from 'react'
 import { Menu, X } from "lucide-react";
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { navLinks, isActive } from './navLinks';
 const Header = () => {
   const [open, setOpen] = useState(false)
+  const pathname = usePathname()
   const [visible, setVisible] = useState(false);
 
 useEffect(() => {
@@ -36,12 +39,20 @@ useEffect(() => {
                 <button className=' max-tablet:pr-19.5 max-tablet:mt-3 max-mobile:mt-2.5 max-mobile:pr-12 ' onClick={() => setOpen(!open)} >
                   {open?  <X size={27} className='text-black'/> : <Menu size={25} className='text-black'/>}
                 </button>
-            <div className=' flex flex-col gap-8 mx-auto py-3 w-full px-5 max-tablet:mt-2 max-mobile:gap-8 it pb-10 text-[#290303]'>
-            <Link href={'/'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>Home</Link>
-            <Link href={'/aboutUs'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>About Us</Link>
-            <Link href={'/services'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>Services</Link>
-            <Link href={'/products'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>Products</Link>
-            <Link href={'/contactUs'} className=' text-[20px] font-medium shadow-lg hover:bg-[#290303] hover:text-white text-center rounded-[10px] px-3 py-2'>Contact Us</Link>
+            <div className=' flex flex-col gap-6 mx-auto py-3 w-full px-5 max-tablet:mt-2 max-mobile:gap-5 it pb-10 text-[#290303]'>
+            {navLinks.map((link) => {
+              const active = isActive(pathname, link.href)
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  aria-current={active ? 'page' : undefined}
+                  className={`text-[20px] shadow-lg text-center rounded-[10px] px-3 py-2 transition-colors duration-300 ${active ? 'bg-[#290303] text-white font-bold' : 'font-medium hover:bg-[#290303] hover:text-white'}`}
+                >
+                  {link.label}
+                </Link>
+              )
+            })}
 
             
               </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Reveal from "./Reveal";
 
 const Mission: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ const Mission: React.FC = () => {
       aria-labelledby="mission-heading"
       className="bg-[#FAF8F2]  py-16 px-6 lg:px-24"
     >
-      <div className="mx-auto max-w-4xl text-center">
+      <Reveal className="mx-auto max-w-4xl text-center">
         <h2
           id="mission-heading"
           className="text-3xl lg:text-3xl font-medium text-[#290303]  mb-4"
@@ -31,7 +32,7 @@ const Mission: React.FC = () => {
 
 
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 };

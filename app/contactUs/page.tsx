@@ -1,22 +1,39 @@
 "use client";
 
 import PagesLayout from "@/src/components/PagesLayout";
+import Reveal from "@/src/components/Reveal";
 import React from "react";
 
 const ContactPage = () => {
   return (
     <PagesLayout>
       <main className="bg-[#FAF8F2] min-h-screen py-16 px-6 lg:px-24 pt-40">
-        <div className="max-w-2xl mx-auto text-center">
+        <Reveal className="max-w-2xl mx-auto text-center">
           <h1 className="text-4xl lg:text-5xl font-bold mb-4 text-[#290303]">
             Contact <span className="text-[#290303]">Us</span>
           </h1>
-          <p className="text-[#290303] mb-10">
-            Do you have any inquiries? Kindly fill out the form below, and we’ll
-            get back to you within 24 hours.
-          </p>
-        </div>
+          <div className="text-[#290303] mb-10 space-y-5">
+            <p>
+              Have a question or want to work with Journals by PA? We would love
+              to hear from you.
+            </p>
+            <div>
+              <h2 className="font-bold text-xl mb-1">Business Inquiries</h2>
+              <p>
+                For general business inquiries, email{" "}
+                <a href="mailto:hello@journalsbypa.com" className="font-semibold underline hover:text-[#8b5e3c] transition-colors">
+                  hello@journalsbypa.com
+                </a>
+              </p>
+            </div>
+            <p>
+              Or fill out the form below, and we’ll get back to you within 24
+              hours.
+            </p>
+          </div>
+        </Reveal>
 
+        <Reveal delay={150}>
         <form
           action="https://formsubmit.co/journalsbypa@gmail.com"
           method="POST"
@@ -88,11 +105,12 @@ const ContactPage = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#290303] text-white font-semibold py-3 rounded-lg shadow hover:bg-[#FAF8F2] hover:text-[#290303] transition"
+            className="btn-animate w-full bg-[#290303] text-white font-semibold py-3 rounded-lg shadow border border-[#290303] hover:bg-[#FAF8F2] hover:text-[#290303]"
           >
             Send Us an Inquiry
           </button>
         </form>
+        </Reveal>
       </main>
     </PagesLayout>
   );

@@ -106,25 +106,6 @@ const serviceDetails: ServiceDetail[] = [
 ];
 
 export default function ServicesPage() {
-  const services = [
-    {
-      title: "Personalized Devotionals",
-      description: "Deepen your spiritual journey with devotionals tailored to your unique needs.",
-    },
-    {
-      title: "Tailor-Made Reflection Guides",
-      description: "Guides crafted just for you to help you reflect and grow intentionally.",
-    },
-    {
-      title: "Interactive Workbooks Made for You",
-      description: "Engaging workbooks designed to support your learning and personal development.",
-    },
-    {
-      title: "Planners Designed Just for You",
-      description: "Organize your goals and daily activities with planners built around your lifestyle.",
-    },
-  ];
-
   return (
     <PagesLayout>
       <section className="min-h-screen bg-[#FAF8F2] py-16 px-6 md:px-12 lg:px-20">
@@ -203,31 +184,6 @@ export default function ServicesPage() {
               </Reveal>
             ))}
           </div>
-
-          {/* Original service cards — kept until the client confirms they can be removed */}
-          <div className="grid md:grid-cols-2 gap-8 mt-16">
-            {services.map((service, i) => (
-              <Reveal key={i} delay={(i % 2) * 150}>
-                <div className="h-full rounded-2xl shadow-md bg-white p-6 text-left transition duration-300 hover:-translate-y-1 hover:shadow-lg">
-                  <h2 className="text-2xl font-semibold text-[#290303] mb-3">
-                    {service.title}
-                  </h2>
-                  <p className="text-[#290303]">{service.description}</p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-
-          <Reveal className="mt-16">
-            <Link
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={buttonClass}
-            >
-              Get Started
-            </Link>
-          </Reveal>
 
           <Reveal className="mt-20 max-w-3xl mx-auto text-[#290303]">
             <h2 className="text-3xl font-bold mb-4 max-mobile:text-2xl">
